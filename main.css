@@ -19,7 +19,8 @@ body{
 	margin: 0px 10px 10px 15px;
 	padding: 30px 30px 30px 30px;
 	border:solid 3px rgba(103,44,8,1.00);
-	text-align: center; color: darkmagenta
+	text-align: center; color: darkmagenta;
+	visibility: visible
 	
 }
 .right{
@@ -31,12 +32,13 @@ body{
 	margin: 0px 0px 10px 0px;
 	padding: 30px 30px 30px 30px;
 	border:solid 3px rgba(103,44,8,1.00);
-	display: none;
+	text-align: center; color: darkmagenta;
+	display:flow-root;
 }
 footer{
 	background-color:rgba(177,90,65,1.00);
 	clear:both;
+	padding: 5px 5px 5px 5px;
 }
 header > h1{text-align: center;	color:rgba(0,0,0,1.00);
 }
-
